@@ -24,15 +24,19 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     background-image:url(../img/papelverjado.jpg);
+   
 }
 h1{
     text-align: center;
     color:darkred;
     font-family: carrington;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 h2{
     color:darkred;
      font-family: cari;
+    margin: 20px;
 }
 p,li{
     font-family: proza;
@@ -55,6 +59,9 @@ p,li{
 .descripcion ul{
     list-style: none;
     
+}
+p{
+    margin:10px;
 }
 .columna1{
     width:30%;
