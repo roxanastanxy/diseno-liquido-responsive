@@ -60,7 +60,7 @@ p,li{
     list-style: none;
     
 }
-p{
+p,ul{
     margin:10px;
 }
 .columna1{
