@@ -1,0 +1,98 @@
+@font-face{
+    font-family:carrington;
+    src:url(../fonts/ProzaLibre-ExtraBold.ttf);
+}
+@font-face{
+    font-family:proza;
+    src:url(../fonts/ProzaLibre-LightItalic.ttf);
+}
+@font-face{
+    font-family:cari;
+    src: url(../fonts/ProzaLibre-Regular.ttf)
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+    
+
+
+body{
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image:url(../img/papelverjado.jpg);
+}
+h1{
+    text-align: center;
+    color:darkred;
+    font-family: carrington;
+}
+h2{
+    color:darkred;
+     font-family: cari;
+}
+p,li{
+    font-family: proza;
+    
+}
+
+.datos{
+   width: 25%;
+   display:inline-block;
+    vertical-align: top;
+   
+}
+.descripcion{
+    width: 74%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+.descripcion ul{
+    list-style: none;
+    
+}
+.columna1{
+    width:30%;
+    display: inline-block;
+  
+}
+.columna2{
+    width:30%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.columna3{
+    width:30%;
+    display: inline-block;
+    vertical-align: top;
+    
+    
+}
+@media(max-width:470px){
+    body{
+        width:90%;}
+    
+    div,li{ 
+        display: block!important;
+        width:100%!important;
+    }
+   
+    }
+@media print{
+  h1,h2{
+        color:black;
+    }
+    body{
+        width:90%;
+        display: block!important;
+    }
+    div,li{ 
+        display: block!important;
+        width:100%!important;
+}
